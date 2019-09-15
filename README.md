@@ -4,15 +4,15 @@ The application is a small calculator with unlimited accuracy. The calculator su
 
 ## Installation
 
-You may need to install [gambit](http://dynamo.iro.umontreal.ca/wiki/index.php/Main_Page) to compile or interpret ```calculatrice-scheme.scm```
+You may need to install [gambit](http://dynamo.iro.umontreal.ca/wiki/index.php/Main_Page) to compile or interpret ``calculatrice-scheme.scm``
 
 ## Usage
 
-Each expression is on a line and the calculator waits for the input by printing ```>``` as an incentive. 
+Each expression is on a line and the calculator waits for the input by printing ``>`` as an incentive. 
 After the end of the line the program prints the result on a new line. The expressions are in **postfix** form.
 
 It is possible to assign variables using the syntax:
-```⟨expression⟩ =⟨variable⟩```
+``⟨expression⟩ =⟨variable⟩``
 
 After the assignment the variable can be used in expressions. Valid variable names have only one character. It is a mistake to use a variable that has not yet received a value. 
 
@@ -20,7 +20,7 @@ Negative numbers are not allowed in expressions, but the result of a calculation
 
 ## Example
 
-```bash
+```
 > 1 1 + 1 - 48 *
 48
 > 1000 1000 * =a
